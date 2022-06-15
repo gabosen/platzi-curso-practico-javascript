@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>producto nacional bruto</title>
+</head>
+<body>
+    <h1>producto nacional bruto</h1>
+    <form>
+        <p>
+            <label for="PBI">Ingrese el PBI:</label>
+            <input id="PBI" type="number" />
+            
+        </p>
+        <p>
+            <label for="rentasNacionalesEnExterior">Ingrese las rentas obtenidas por los nacionales en el extranjero:</label>
+            <input id="rentasNacionalesEnExterior" type="number" />
+            
+        </p>
+        <p>
+            <label for="rentasExtrangerasEnPais">Ingresar las rentas obtenidas por los extranjeros en el país</label>
+            <input id="rentasExtrangerasEnPais" type="number">
+        </p>
+        <p>
+            <button type="button" onclick="calcularPNB()">Calcular PNB</button>
+        </p>
+        <p id="ResultPNB"></p>
+        
+    </form>
+    <a href="productoNacionalBruto.html">Ingrese para calcular PBI</a>
+
+    <script src="./analisis.js"></script>
+</body>
+</html>

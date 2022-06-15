@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salarios</title>
+</head>
+<body>
+    <h1>Salarios</h1>
+    <form>
+        <p>
+            <label for="nombre">Ingrese un nombre:</label>
+            <input id="nombre" type="text" />
+            
+        </p>
+        <p>
+            <label for="salario">Ingresar salario</label>
+            <input id="salario" type="number">
+        </p>
+        <p>
+            <button type="button" onclick="GuardarSalario()">guardar salario</button>
+            <button type="button" onclick="CalculoMedianaGeneral()">Calcúlar mediana general</button>
+            <button type="button" onclick="CalculoMedianaTop10()">Calcúlar madiana del Top 10</button>
+        </p>
+        <p id="ResultGeneral"></p>
+        <p id="ResultTop10"></p>
+        
+    </form>
+
+    <script src="./salarios.js"></script>
+    <script src="./analisis.js"></script>
+</body>
+</html>

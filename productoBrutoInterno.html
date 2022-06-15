@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto bruto interno</title>
+</head>
+<body>
+    <h1>Producto bruto interno</h1>
+    <form>
+        <p>
+            <label for="consumo">Ingrese el consumo:</label>
+            <input id="consumo" type="number" />
+        </p>
+        <p>
+            <label for="inversion">Ingrese la inversion:</label>
+            <input id="inversion" type="number" />
+        </p>
+        <p>
+            <label for="gastoPublico">Ingrese el gasto publico:</label>
+            <input id="gastoPublico" type="number" />
+        </p>
+        <p>
+            <label for="exportaciones">Ingresar exportaciones:</label>
+            <input id="exportaciones" type="number">
+        </p>
+        <p>
+            <label for="importaciones">Ingresar importaciones:</label>
+            <input id="importaciones" type="number">
+        </p>
+        <p>
+            <button type="button" onclick="calcularPBI()">Calcular tasa de ahorro</button>
+        </p>
+        <p id="ResultPBI"></p>
+    </form>
+
+    <script src="./analisis.js"></script>
+
+</body>
+</html>
